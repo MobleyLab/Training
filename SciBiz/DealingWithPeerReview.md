@@ -1,5 +1,7 @@
 # Navigating the Peer Review System
 
+*By David Mobley*
+
 The authoring/peer review process tends to seem opaque and stressful, especially for early-career scientists. It doesn't have to be, however. Here I'll give a very brief overview of how I like to see the paper preparation, submission, and review process working, then focus especially on my strategy for dealing with and responding to peer reviews.
 
 ## The life cycle of a paper
