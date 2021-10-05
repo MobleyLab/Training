@@ -205,8 +205,8 @@ In any case, given that I have limited time, there are a number of ways you can 
 	- My schedule can become completely booked. If you are planning to have me a paper draft to edit, or code to review, let me know as far in advance as possible in terms of your timeframe so I can actually get it on the calendar. Especially for things requiring good chunks of time, like paper editing, it can take me a couple weeks to get to it if you don’t give me advance notice. Make sure you have things ready so I can make the most of my time — you don’t want me to spend it fixing grammar errors or trying to find your input files to try out your code. Make it easy for me so you get the feedback you want.
 
 ## For specific groups:
-- Specific advice for undergraduate students is here: (Link to be inserted later when this is on GitHub)
-- Specific advice for graduate students and postdocs is here: Specific Advice for Graduate Students and Postdocs in the Lab (Link to be inserted later when this is on GitHub)
+- [Specific advice for undergraduate students is here](Undergrads.md) 
+- [Specific advice for graduate students and postdocs is here](GradsAndPostdocs.md)
 
 
 ## Useful reading on aspects of "doing science":
