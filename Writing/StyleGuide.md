@@ -20,7 +20,7 @@ But some issues are worth addressing specifically within the group because they 
 - “Force field”, not “forcefield”
 - “Predicting”, resist the temptation to use when calculating values which you know. Sometimes acceptable to use for values which have already been measured but are blind to you (e.g. in the context of a blind challenge), but best used for values which have not yet been measured. Use “calculating”, “estimating”, or “computing” if comparing to literature values.
 - “Side chain” not “side-chain”
-- “Underestimate”/”Overestimate”: Only use for quantities where this has a clear and obvious meaning. Don’t use it for binding free energies, where “underestimate” can refer to the magnitude (so “underestimated” means “binds too weakly”) or the value (so “underestimated” means “binds too strongly”). A similar concern applies to K_d_ values. Just say something direct, like “the computed binding free energy was too favorable”.
+- “Underestimate”/”Overestimate”: Only use for quantities where this has a clear and obvious meaning. Don’t use it for binding free energies, where “underestimate” can refer to the magnitude (so “underestimated” means “binds too weakly”) or the value (so “underestimated” means “binds too strongly”). A similar concern applies to Kd values. Just say something direct, like “the computed binding free energy was too favorable”.
 - "Van der Waals": Describes the physical interaction/behavior, in contrast to Lennard-Jones, a particular potential function which can be used to describe this interaction.
 
 ## General style:
