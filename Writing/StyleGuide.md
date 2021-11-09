@@ -102,7 +102,7 @@ We often use LaTeX (e.g. Overleaf) for writing papers. Some LaTeX-specific tips 
     + Talk explicitly in prose about the types of variables - what they're for, what data they hold, and what methods/behaviors they have
     + Link to the API docs for types as you introduce them
 - **Code in prose**: Render names taken verbatim from code in `monospaced font` to signal that it is code, but don't overdo it
-    + Code used to invoke software often has a similar name to the software itself, but this doesn't mean they're interchangeable. In prose, call things by their (correctly capitalized) name, not their invoking command.
+    + Code used to invoke software often has a similar name to the software itself, but this doesn't mean that they're interchangeable. In prose, call things by their (correctly capitalized) name, not their invoking command.
         * "Python", not "`python`", "`python3`", or "python"
         * "GROMACS", not "`gmx`" or "Gromacs"
         * "Conda", not "`conda`" or "conda".
