@@ -96,7 +96,7 @@ We often use LaTeX (e.g. Overleaf) for writing papers. Some LaTeX-specific tips 
     + Function docstrings should at minimum describe every argument and what output is produced. 
     + Class docstrings should at minimum describe the purpose of the class. 
     + Great docstrings include examples of common use; errors, exceptions, and panics that the code can cause; any side effects or argument mutation; background information needed to understand what the code does; and the purpose and intended use of the code.
-    + Whenever you change the source of an object, check to make sure the docstring is still correct and complete.
+    + Whenever you change the source of an object, check to make sure that the docstring is still correct and complete.
 - **Types**: Code examples and notebooks are much easier to read when the reader knows or can discern the types of each variable
     + When you introduce a function, describe its type signature, especially its return type
     + Talk explicitly in prose about the types of variables - what they're for, what data they hold, and what methods/behaviors they have
