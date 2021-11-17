@@ -6,6 +6,7 @@ This repository is currently under construction. It will eventually contain vari
 - `NewMembers`: Info for new members in the Mobley Lab, which may be useful more broadly.
 - `SciBiz`: To contain various information on what my old PI would call "the science business", such as navigating peer review, networking, etc. Currently contains information on navigating papers through peer review.
 - `Writing`: Information and tips on writing, including a style guide and info on our paper-writing process.
+- `Computing`: Background relating to scientific computing, coding, etc., both generally and in the lab in specific
 
 
 
