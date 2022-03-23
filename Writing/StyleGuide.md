@@ -70,9 +70,13 @@ We often use LaTeX (e.g. Overleaf) for writing papers. Some LaTeX-specific tips 
 - If you are making a final manuscript with LaTeX that needs to be publication quality (e.g. for LiveCoMS) pay careful attention to figure placement in the final version.
 - Abbreviate journal titles in bibliographies; if using a citation manager like Zotero, check the "use journal abbreviations" box on export to ensure this happens.
 
+## Graphics and Figures
+- Always use clear axis labels, with large enough fonts for the display size
+- Consider colorblindness (e.g. see this post for [some considerations](https://www.tableau.com/about/blog/examining-data-viz-rules-dont-use-red-green-together), though Google for many more) and pick colorblind-friendly palettes and ensure that you use more than color to distinguish key aspects of your data
+
 ## Writing documentation for software
 
-- **Tone**: Aim for a friendly, conversational, clear tone. 
+- **Tone**: Aim for a friendly, conversational, clear tone.
     + Software documentation does not need to be as formal in tone as a paper
         * You can end sentences in prepositions if you want to.
         * It's OK to freely split infinitives.
@@ -92,9 +96,9 @@ We often use LaTeX (e.g. Overleaf) for writing papers. Some LaTeX-specific tips 
         * It's nice/polite to include the reader whenever we use the word "we". If "we" is the dev team, this excludes the reader.
     + "The `rmsd()` function computes the root mean square deviation" rather than "Use the `rmsd()` function to compute the root mean square deviation"
 - **Write code examples**: Lots of people find programming easier to learn by example than by theory, and it's convenient to be able to copy-paste the most common usages of a library.
-- **Write docstrings**: At minimum, every function or type in a public API should have a docstring. 
-    + Function docstrings should at minimum describe every argument and what output is produced. 
-    + Class docstrings should at minimum describe the purpose of the class. 
+- **Write docstrings**: At minimum, every function or type in a public API should have a docstring.
+    + Function docstrings should at minimum describe every argument and what output is produced.
+    + Class docstrings should at minimum describe the purpose of the class.
     + Great docstrings include examples of common use; errors, exceptions, and panics that the code can cause; any side effects or argument mutation; background information needed to understand what the code does; and the purpose and intended use of the code.
     + Whenever you change the source of an object, check to make sure that the docstring is still correct and complete.
 - **Types**: Code examples and notebooks are much easier to read when the reader knows or can discern the types of each variable
@@ -110,7 +114,7 @@ We often use LaTeX (e.g. Overleaf) for writing papers. Some LaTeX-specific tips 
     + Don't pluralize or otherwise conjugate names from code when they're monospaced. "`ForceField` objects", not "`ForceField`s" or "`ForceFields`". "Run `python`" or "Run Python", not "Run `Python`"
     + Feel free to come up with English names for the objects you're describing. This can make reading easier, as the prose is not constantly changing font, but also makes writing easier
         * "The `np.array()` function returns an array, which stores its contents in contiguous memory. Arrays are instances of the `ndarray` class."
-        
+
 
 ## Git Friendliness
 
