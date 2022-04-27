@@ -36,6 +36,7 @@ But some issues are worth addressing specifically within the group because they 
     - Throwaway words -- general principles: It’s not necessary/helpful to say something is a certain way unless the opposite would also make sense. So usually don’t use:
         - “Data-driven” -- what’s the alternative? Completely made up? Usually writers insert this as a type of buzzword; it sounds good but doesn’t convey information.
     - Avoid contractions because science papers should be modestly more formal than normal writing
+    - Tense: For papers, usually past tense for what we did, present tense for results, and past tense for conclusions except when describing implications.
 - **Phrases, complexity and hedging** -- see https://cgi.duke.edu/web/sciwriting/index.php?action=lesson3
     - Avoid meaningless phrases/excessive wordiness
     - Avoid excessive hedging/caveats
@@ -57,6 +58,10 @@ But some issues are worth addressing specifically within the group because they 
     - **Section/subsection headers**: Apply the “titles should be statements” rule as much as the journal guidelines will allow for section/subsection headers. Don’t make subsection headers just generic headers (like “MD simulation details”) unless journal guidelines REQUIRE it.
     - **Section/subsection divisions and numbering**: Use as many subsections/divisions as you need to break things up for good readability and easy cross-referencing. If you find you have a five page section, for example, it probably needs division into subsections. However, don’t use an additional level of division unless there will be more than one item at that level. For example, if you decide to break Section 5.1 into subsections so that you have Section 5.1.1, you must also have Section 5.1.2. If Section 5.1 doesn’t need multiple subsections, don’t break it up.
 - **Lists**: Items in a list must be the same *kind of thing*. Imagine a grocery shopping list reading "Apples, lettuce, crackers, puppies, cheese". One of these would likely be shocking. More typically in academic writing one will be tempted to mix questions with statements, or mix tenses, or other variations. Don't. Ensure items in a list have a consistent kind.
+- **Methods**: If describing methods used in a project (such as in a paper) and your work closely follows the methods from a previous study, it's appropriate to cite the prior study and describe your methods more concisely, referring to that study for more details. However:
+    - Your study should always at least concisely summarize your methods
+    - Your work must make clear how to find full details and reproduce your work
+    - Never send your readers on a chase; while you can cite a prior study for details, if THAT study cites a prior study for details you're wasting the reader's time. No "Russian doll" methods sections.
 - **References**: Don’t refer to authors by name in the text unless it helps your discussion to do so or is important to your narrative.
 - **Acknowledgments**: Be generous. If someone gave you an idea which was helpful, or helped with scripts, code, queuing system, whatever, acknowledge them. It costs you nothing.
 - **Authorship**: If someone helped the project significantly, even in terms of providing key ideas, consider asking if they would like to be a co-author (discussing with your PI too). It costs almost nothing.
