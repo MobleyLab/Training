@@ -23,6 +23,8 @@ But some issues are worth addressing specifically within the group because they 
 - “Side chain” not “side-chain”
 - “Underestimate”/”Overestimate”: Only use for quantities where this has a clear and obvious meaning. Don’t use it for binding free energies, where “underestimate” can refer to the magnitude (so “underestimated” means “binds too weakly”) or the value (so “underestimated” means “binds too strongly”). A similar concern applies to Kd values. Just say something direct, like “the computed binding free energy was too favorable”.
 - "Van der Waals": Describes the physical interaction/behavior, in contrast to Lennard-Jones, a particular potential function which can be used to describe this interaction.
+- "Pose": Usually used to discuss a static placement of a ligand/small molecule in a receptor. Refers primarily to the placement of the small molecule, NOT to the structure of the receptor.
+- "Binding mode": Refers to the overall placement/orientation/conformation of a small molecule bound to a receptor, and gives a less static picture than the word "pose". With care, the idea of "binding mode" can be generalized to include the relevant receptor conformation(s), bound waters, etc. It can also include a group of relevant microstates that correspond to a metastable state.
 
 ## General style:
 - **Words**:
@@ -33,10 +35,11 @@ But some issues are worth addressing specifically within the group because they 
     - Throwaway words and other words to avoid:
       - Don’t say “Several X exist…” What are we going to do, talk about nonexistent methods? In general avoid the word “exist”
       - “Obviously”. If it were truly obvious it either wouldn’t be necessary to say it or it would risk insulting your readers. Avoid the word, rephrase, or don’t say it.
+      - Usually avoid "we want to highlight that", "importantly", "it is important to note that", etc. Just make your point. Use emphasis words sparingly and only if essential.
     - Throwaway words -- general principles: It’s not necessary/helpful to say something is a certain way unless the opposite would also make sense. So usually don’t use:
         - “Data-driven” -- what’s the alternative? Completely made up? Usually writers insert this as a type of buzzword; it sounds good but doesn’t convey information.
     - Avoid contractions because science papers should be modestly more formal than normal writing
-    - Tense: For papers, usually past tense for what we did, present tense for results, and past tense for conclusions except when describing implications.
+    - Tense: For papers, usually past tense for what we did, present tense for results, and past tense for conclusions except when describing implications. Relatedly, things shown in a figure or table can be referred to in present tense, as the data in the figure or table still shows any observed effect.
 - **Phrases, complexity and hedging** -- see https://cgi.duke.edu/web/sciwriting/index.php?action=lesson3
     - Avoid meaningless phrases/excessive wordiness
     - Avoid excessive hedging/caveats
@@ -44,6 +47,7 @@ But some issues are worth addressing specifically within the group because they 
 - **Sentences:**
     - Prefer concise, direct, clear sentences. If you find yourself having lots of clauses, simplify.
     - Opening material gets the most emphasis. So, try to start with the “what”, not the “how”, for example, not “By running MD simulations looking at …., we found…” but rather, “We examined X using MD simulations. We found…”
+    - Prefer simple subjects and verbs for easy reading. While a sentence like "The entry of other water molecules into the binding site in EQ runs of a FXa system (PDB: 1EZQ) when the alchemical water was fully decoupled led to sudden changes in work values in transition simulations." might be grammatically correct, it's hard to follow because the subject is too complex.
     - Transitions: Often use transition words to make clear how subsequent sentences follow from prior sentences.
 - **Paragraphs**:
     - Length: Journal articles are typically two column, which means you need to err in the direction of short paragraphs (to avoid having paragraphs which fill entire columns and are hard to parse)
@@ -62,12 +66,17 @@ But some issues are worth addressing specifically within the group because they 
     - Your study should always at least concisely summarize your methods
     - Your work must make clear how to find full details and reproduce your work
     - Never send your readers on a chase; while you can cite a prior study for details, if THAT study cites a prior study for details you're wasting the reader's time. No "Russian doll" methods sections.
-- **References**: Don’t refer to authors by name in the text unless it helps your discussion to do so or is important to your narrative.
+- **References**:
+  - Don’t refer to authors by name in the text unless it helps your discussion to do so or is important to your narrative.
+  - Ensure your sentences flow naturally and grammatically even without the reference. So DO write "Previous work discussed this extensively [39-47]," but not "For additional discussion, we refer the reader to [37-47]."
 - **Acknowledgments**: Be generous. If someone gave you an idea which was helpful, or helped with scripts, code, queuing system, whatever, acknowledge them. It costs you nothing.
 - **Authorship**: If someone helped the project significantly, even in terms of providing key ideas, consider asking if they would like to be a co-author (discussing with your PI too). It costs almost nothing.
 - **Figure captions**: Try to make them self-contained so they provide a concise summary of the figure, including its main point(s). Figures+captions should be stand-alone enough that someone can understand what it’s showing without reading the text.
 - **Figure subtitles**: If journal style allows, the caption should ideally start with a single-phrase header/subtitle in boldface which is not a complete sentence, then the rest of the caption should use complete sentences.
 - **Table captions**: Generally the same considerations apply as for figure captions.
+- **Other practical tips for clarity and correctness**:
+    - Be very careful of the use of "its" in sentences with multiple nouns; [this choice of word often dramatically reduces clarity](https://reason.com/volokh/2022/06/15/its-a-problem/).
+    - Exercise considerable care when using negatives. Avoid constructions like "failed to X all the Y" ("failed to sample all of the relevant states" -- did it sample none of the relevant states? Or it sampled some but not all?), or "not X in both of of the Y" ("not sampled in both of the trials" -- was it sampled in one, or neither?)
 
 ## Tips if using LaTeX for writing
 
