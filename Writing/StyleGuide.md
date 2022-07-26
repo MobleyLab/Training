@@ -27,8 +27,9 @@ But some issues are worth addressing specifically within the group because they 
 - "Pose": Usually used to discuss a static placement of a ligand/small molecule in a receptor. Refers primarily to the placement of the small molecule, NOT to the structure of the receptor.
 - "Binding mode": Refers to the overall placement/orientation/conformation of a small molecule bound to a receptor, and gives a less static picture than the word "pose". With care, the idea of "binding mode" can be generalized to include the relevant receptor conformation(s), bound waters, etc. It can also include a group of relevant microstates that correspond to a metastable state.
 - OpenFF-specific terms:
-  - BespokeFit is the name of the package for fitting custom torsions
-  - TorsionDrive scans torsions
+  - Capitalize the first letter of each word in a compound word software name released by OpenFF:
+      - "BespokeFit" is the name of the package for fitting custom torsions
+      - "TorsionDrive" scans torsions
 
 ## General style:
 - **Words**:
