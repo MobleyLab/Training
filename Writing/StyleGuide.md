@@ -26,6 +26,10 @@ But some issues are worth addressing specifically within the group because they 
 - "Van der Waals": Describes the physical interaction/behavior, in contrast to Lennard-Jones, a particular potential function which can be used to describe this interaction.
 - "Pose": Usually used to discuss a static placement of a ligand/small molecule in a receptor. Refers primarily to the placement of the small molecule, NOT to the structure of the receptor.
 - "Binding mode": Refers to the overall placement/orientation/conformation of a small molecule bound to a receptor, and gives a less static picture than the word "pose". With care, the idea of "binding mode" can be generalized to include the relevant receptor conformation(s), bound waters, etc. It can also include a group of relevant microstates that correspond to a metastable state.
+- OpenFF-specific terms:
+  - Capitalize the first letter of each word in a compound word software name released by OpenFF:
+      - "BespokeFit" is the name of the package for fitting custom torsions
+      - "TorsionDrive" scans torsions
 
 ## General style:
 - **Words**:
@@ -72,12 +76,16 @@ But some issues are worth addressing specifically within the group because they 
   - Ensure your sentences flow naturally and grammatically even without the reference. So DO write "Previous work discussed this extensively [39-47]," but not "For additional discussion, we refer the reader to [37-47]."
 - **Acknowledgments**: Be generous. If someone gave you an idea which was helpful, or helped with scripts, code, queuing system, whatever, acknowledge them. It costs you nothing.
 - **Authorship**: If someone helped the project significantly, even in terms of providing key ideas, consider asking if they would like to be a co-author (discussing with your PI too). It costs almost nothing.
-- **Figure captions**: Try to make them self-contained so they provide a concise summary of the figure, including its main point(s). Figures+captions should be stand-alone enough that someone can understand what it’s showing without reading the text.
+- **Figure captions**: Try to make them self-contained so they provide a concise summary of the figure, including its main point(s). Figures+captions should be stand-alone enough that someone can understand what it’s showing without reading the text. The main take-away of the figure should be clearly stated in the caption.
 - **Figure subtitles**: If journal style allows, the caption should ideally start with a single-phrase header/subtitle in boldface which is not a complete sentence, then the rest of the caption should use complete sentences.
 - **Table captions**: Generally the same considerations apply as for figure captions.
 - **Other practical tips for clarity and correctness**:
     - Be very careful of the use of "its" in sentences with multiple nouns; [this choice of word often dramatically reduces clarity](https://reason.com/volokh/2022/06/15/its-a-problem/).
     - Exercise considerable care when using negatives. Avoid constructions like "failed to X all the Y" ("failed to sample all of the relevant states" -- did it sample none of the relevant states? Or it sampled some but not all?), or "not X in both of of the Y" ("not sampled in both of the trials" -- was it sampled in one, or neither?)
+- **Figure, table and section numbering/naming** (except when journal style dictates otherwise):
+  - In text, use "Sec. 1", "Fig. 1", "Table 1" for sections, figures and tables
+  - In figures, use lowercase letters for panel numbers, e.g. "(a)" not "(A)"
+  - Section titles should use title case, rather than capitalizing only the first letter
 
 ## Tips if using LaTeX for writing
 
