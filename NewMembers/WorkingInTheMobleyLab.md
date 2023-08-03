@@ -211,5 +211,6 @@ In any case, given that I have limited time, there are a number of ways you can 
 
 ## Useful reading on aspects of "doing science":
 - Kevin Plaxco on ["The Art of Writing Science"](http://doi.wiley.com/10.1002/pro.514)
+- [Fraser lab philosophy](https://fraserlab.com/philosophy/): Jamie Fraser's lab at UCSF has a lot of great background material relating to being in a research group, what the advisor-advisee relationship should look like, etc. Not all is directly relevant to us but most of it is. Worth reading.
 - Uri Alon on ["How to Give a Good Talk"](https://pubmed.ncbi.nlm.nih.gov/19854123/)
 - My talk on "Giving Good Talks" (link to be added later)

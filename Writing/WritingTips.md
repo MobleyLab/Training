@@ -6,7 +6,7 @@ This document provides some tips on how to go about writing a paper and using th
 
 Please: Get an ORCID (unique researcher identifier) and include it in your work: https://orcid.org/ (free)
 
-## Other related content
+## Other related content in our lab materials
 See the [group style guide](https://github.com/MobleyLab/Training/blob/main/Writing/StyleGuide.md) for language and word issues.
 
 ## Potentially helpful tips:
@@ -49,3 +49,10 @@ See the [group style guide](https://github.com/MobleyLab/Training/blob/main/Writ
     - It can be very satisfying to enter the room for an extended writing session, sit down together for a few hours, and leave with a draft that is complete enough to be able to continue fleshing it out on your own
     - This can require significant advance planning (e.g. I might not have a big block of time except on a weekend or if we plan far ahead)
     - Others could also help
+
+## LaTeX tips
+- Usually we use Overleaf for shared editing/writing in LaTeX
+- Many journals ask revisions to be accompanied by something highlighting the changes which were made in revision. Be sure to save a version of your Overleaf before making these edits, then use `latexdiff` on the before-and-after versions to prepare a nice PDF with changes highlighted. This can also integrate with Git, e.g. [`git-latexdiff`](https://gitlab.com/git-latexdiff/git-latexdiff). 
+
+## Other recommended materials elsewhere:
+- [Helmut Grubmuller's writing guidelines](https://www.mpinat.mpg.de/631838/guidelines_english.pdf): These give a variety of useful and important tips on one of the key parts of writing and editing -- how to think about what the READER is thinking based on what you wrote. It's not just an issue of checking whether our words accurately represent what is in our heads -- but whether they get the reader to understand what we want them to understand. This also gives a variety of very concrete ways to improve scientific writing.
