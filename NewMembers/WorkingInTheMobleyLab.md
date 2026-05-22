@@ -59,7 +59,7 @@ Next, I want to address what I expect from people in the lab, which is mostly ge
        	   - "Is anything blocking your progress/what would help you progress faster?"
    	   - We work to identify whether you do better with deadlines (regularly scheduled meetings with me, e.g. weekly) or more independence
    	   - We schedule meetings accordingly
-   	   - You know how to get my availability via Calendly so you can get me in the interim if needed (or drop into my office/office hours)
+   	   - You know how to get my availability via Reclaim so you can get me in the interim if needed (or drop into my office/office hours)
    	   - **Take initiative to set regular meetings with me on whatever frequency is needed**
 - Come prepared when we meet, including bringing materials for: 
 	- Updates on what you've done/ what challenges you're facing
@@ -85,6 +85,8 @@ Next, I want to address what I expect from people in the lab, which is mostly ge
 		- You may need to nag Dr. Mobley to help you
 		- You will likely need to set deadlines, milestones, etc., or work with Dr. Mobley to do so.
 	- "Finished" means it turns into a paper or papers (or at least preprints) and a thesis chapter, usually
+- You own your projects regardless of what tools you use. This especially needs to be emphasized in the era of AI tools; regardless of what tools you use in what way, you are always responsible for everything they do on your behalf. Concretely, for example, if you use an AI tool to help you write code, analyze data, or edit something, you are 100% responsible for what it did, and for the correctness of the outputs.
+    - Ownership also has important implications for training, [as discussed in this article](https://ergosphere.blog/posts/the-machines-are-fine/) -- you cannot use AI tools to help you with something if you lack the expertise to validate their accuracy. This means developing your own expertise has to come before leaning on an AI tool for something.  
 - **Know which projects are yours to own (see “take ownership”)**: 
 	- Normally each project will have several people involved, but it “belongs” to one who will end up being the first author (though in some cases there may be co-first authors)
 	- If the project is yours, you must take ownership of it, including nagging/setting deadlines
