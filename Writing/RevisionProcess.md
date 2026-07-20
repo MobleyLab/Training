@@ -14,4 +14,7 @@ How we use it for paper revision/editing:
 
 Why this matters: tracked, commented changes mean I only ever read the revisions, so I move way faster. Untracked or unexplained edits mean re-reading the whole document every pass, which is slower for both of us and more likely to introduce silent errors.
 
-Exceptions: If edits are format-only (inserting whitespace, etc.) or fix typos or obvious grammar errors, no tracking is needed, just accept the changes to reduce the amount of review needed.
+## Exceptions
+
+- If edits are format-only (inserting whitespace, etc.) or fix typos or obvious grammar errors, no tracking is needed, just accept the changes to reduce the amount of review needed.
+- If I leave a comment that explains a general principle to the author (like "Always define/explain technical terms when you first introduce them") rather than suggesting a specific edit, mark the comment as resolved once you're done with it.
