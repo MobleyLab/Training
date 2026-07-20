@@ -7,7 +7,7 @@ This document provides some tips on how to go about writing a paper and using th
 Please: Get an ORCID (unique researcher identifier) and include it in your work: https://orcid.org/ (free)
 
 ## Other related content in our lab materials
-See the [group style guide](https://github.com/MobleyLab/Training/blob/main/Writing/StyleGuide.md) for language and word issues.
+See the [group style guide](https://github.com/MobleyLab/Training/blob/main/Writing/StyleGuide.md) for language and word issues, and [our revision process](https://github.com/MobleyLab/Training/blob/main/Writing/RevisionProcess.md) for how we use Track Changes/Suggesting mode once a draft exists.
 
 ## Potentially helpful tips:
 - Start by writing an outline
