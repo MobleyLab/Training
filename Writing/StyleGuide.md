@@ -1,6 +1,6 @@
 # Style Guide
 
-(See also the group document on paper-writing tips to be linked here at a later date.)
+See also the sibling documents in this folder: [WritingTips.md](WritingTips.md) for our outline-first drafting strategy, and [RevisionProcess.md](RevisionProcess.md) for how we use Track Changes / Suggesting mode during revision.
 
 ## We generally follow the style of:
 [ACS Style Guide](https://pubs.acs.org/doi/full/10.1021/acsguide.50101) (which unfortunately lives behind a paywall; at a later date we should port summaries of key insights here), see especially:
@@ -15,19 +15,19 @@ But some issues are worth addressing specifically within the group because they 
 
 
 ## Terms and terminology, word choices (alphabetical order):
+- "AM1-BCC", not "AM1BCC"
 - “Atom type”, not “atomtype”
+- "Binding mode": Refers to the overall placement/orientation/conformation of a small molecule bound to a receptor, and gives a less static picture than the word "pose". With care, the idea of "binding mode" can be generalized to include the relevant receptor conformation(s), bound waters, etc. It can also include a group of relevant microstates that correspond to a metastable state.
 - “Dataset”, not “data set”, when used as a description of a particular entity, such as “we collected this dataset to allow validation of…”
 - “Force field”, not “forcefield”
-- "Parametrize", not "parameterize"
-- "Small molecule", not "small-molecule" (in the context of a "small molecule force field")
-- “Predicting”, resist the temptation to use when calculating values which you know. Sometimes acceptable to use for values which have already been measured but are blind to you (e.g. in the context of a blind challenge), but best used for values which have not yet been measured. Use “calculating”, “estimating”, or “computing” if comparing to literature values.
 - "Open-source software" (open source as adjective) but "open source" when used as a noun.
-- “Side chain” not “side-chain”
-- “Underestimate”/”Overestimate”: Only use for quantities where this has a clear and obvious meaning. Don’t use it for binding free energies, where “underestimate” can refer to the magnitude (so “underestimated” means “binds too weakly”) or the value (so “underestimated” means “binds too strongly”). A similar concern applies to Kd values. Just say something direct, like “the computed binding free energy was too favorable”.
-- "Van der Waals": Describes the physical interaction/behavior, in contrast to Lennard-Jones, a particular potential function which can be used to describe this interaction.
+- "Parametrize", not "parameterize"
 - "Pose": Usually used to discuss a static placement of a ligand/small molecule in a receptor. Refers primarily to the placement of the small molecule, NOT to the structure of the receptor.
-- "Binding mode": Refers to the overall placement/orientation/conformation of a small molecule bound to a receptor, and gives a less static picture than the word "pose". With care, the idea of "binding mode" can be generalized to include the relevant receptor conformation(s), bound waters, etc. It can also include a group of relevant microstates that correspond to a metastable state.
-- "AM1-BCC", not "AM1BCC"
+- “Predicting”, resist the temptation to use when calculating values which you know. Sometimes acceptable to use for values which have already been measured but are blind to you (e.g. in the context of a blind challenge), but best used for values which have not yet been measured. Use “calculating”, “estimating”, or “computing” if comparing to literature values.
+- “Side chain” not “side-chain”
+- "Small molecule", not "small-molecule" (in the context of a "small molecule force field")
+- “Underestimate”/”Overestimate”/“Over-predicts”/“Under-predicts”: Only use for quantities where this has a clear and obvious meaning. Don’t use them for binding free energies, where “underestimate” can refer to the magnitude (so “underestimated” means “binds too weakly”) or the value (so “underestimated” means “binds too strongly”). “Over-predicts” carries exactly the same ambiguity — over-predicts the affinity, or over-predicts the (signed, negative) free energy? A similar concern applies to Kd values. Just say something direct, like “the computed binding free energy was too favorable”, or “the method predicted binding that was too strong”.
+- "van der Waals": Describes the physical interaction/behavior, in contrast to Lennard-Jones, a particular potential function which can be used to describe this interaction.
 - OpenFF-specific terms:
   - Capitalize the first letter of each word in a compound word software name released by OpenFF:
       - "BespokeFit" is the name of the package for fitting custom torsions
@@ -47,6 +47,7 @@ But some issues are worth addressing specifically within the group because they 
         - “Data-driven” -- what’s the alternative? Completely made up? Usually writers insert this as a type of buzzword; it sounds good but doesn’t convey information.
     - Avoid contractions because science papers should be modestly more formal than normal writing
     - Tense: For papers, usually past tense for what we did, present tense for results, and past tense for conclusions except when describing implications. Relatedly, things shown in a figure or table can be referred to in present tense, as the data in the figure or table still shows any observed effect.
+        - **Methods that are still current stay in present tense.** If a method is still how we do things — or how one *would* do them — describe it in present tense. Otherwise you end up writing "It was necessary to X" when it is still necessary to X, which doesn't make sense. Past tense is for what *we did* on this particular occasion, not for how the method itself works.
 - **Phrases, complexity and hedging** -- see https://cgi.duke.edu/web/sciwriting/index.php?action=lesson3
     - Avoid meaningless phrases/excessive wordiness
     - Avoid excessive hedging/caveats
@@ -99,6 +100,14 @@ We often use LaTeX (e.g. Overleaf) for writing papers. Some LaTeX-specific tips 
 ## Graphics and Figures
 - Always use clear axis labels, with large enough fonts for the display size
 - Consider colorblindness (e.g. see this post for [some considerations](https://www.tableau.com/about/blog/examining-data-viz-rules-dont-use-red-green-together), though Google for many more) and pick colorblind-friendly palettes and ensure that you use more than color to distinguish key aspects of your data
+
+## Preprints
+
+**Posting a preprint is our default.** We normally post to [chemRxiv](https://chemrxiv.org/) at or around the time of submission. Preprints get the work in front of the community immediately, establish priority, and make it citable while it is in review.
+
+- **Discuss with your PI and co-authors before posting.** The decision is joint, and the default is yes; a specific reason is needed to *not* preprint (e.g. an industry collaborator's agreement, or the rare journal that prohibits it).
+- **Check the target journal's policy** before posting. Nearly all journals in our field permit preprints, but confirm rather than assume.
+- **Cite the preprint DOI** in the interim, and update the citation to the journal DOI once the paper is published.
 
 ## Writing documentation for software
 
@@ -160,7 +169,8 @@ It does, however, produce very clean diffs, as changes to a sentence only includ
 
 ## Other Reminders:
 - **Report uncertainties with one significant digit of precision**. Round the associated value to the correct precision based on the uncertainty. For example, “3.247 +/- 0.134” becomes “3.2+/-0.1”, and “0.3247 +/- 0.0134” becomes “0.32+/-0.01”, etc. Deal with the uncertainty first, then round the value accordingly.
-- **Render values as number-space-unit** 7.8 mm, not 7.8mm. Prefer SI units over non-SI alternatives. Uncertainties go before units: 31.4±0.9 kJ/mol.
+- **Render values as number-space-unit** 7.8 mm, not 7.8mm. Uncertainties go before units: 7.5±0.2 kcal/mol.
+- **Units: kcal/mol is our default for energies.** Prefer SI units for general quantities, but free energies in our field are conventionally reported in kcal/mol, and that is our default. Other units (kJ/mol, for example) are perfectly fine where a journal, collaborator, or code convention calls for them — **the key is consistency**: use one unit throughout a paper, including in tables and on figure axes, and never report a bare number without its unit.
 - **Use dashes correctly**
     - hyphen `-` "-": Separates compound words and words broken over a line-break
     - en dash `--` "–": Separates ranges of numbers: 1–5
